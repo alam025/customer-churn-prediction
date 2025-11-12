@@ -197,7 +197,7 @@ test_data_accuracy = accuracy_score(Y_test, X_test_prediction)
 print('Accuracy on Test data:', test_data_accuracy)
 
 # In[30]:
-
+# Add confusion matrix plotting
 # Confusion Matrix
 cm = confusion_matrix(Y_test, X_test_prediction)
 print("\nConfusion Matrix:")
