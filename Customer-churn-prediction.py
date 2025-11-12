@@ -87,7 +87,7 @@ plt.title('Monthly Charges Distribution')
 plt.show()
 
 # ## Data Preprocessing
-
+# Add preprocess_data() method
 # In[13]:
 
 # Handle missing values in TotalCharges column
