@@ -58,7 +58,7 @@ churn_data.describe()
 
 # Checking the distribution of Target Variable (Churn)
 churn_data['Churn'].value_counts()
-
+# Add visualize_churn() method
 # ## Data Visualization
 
 # In[10]:
