@@ -101,7 +101,7 @@ if 'customerID' in churn_data.columns:
     churn_data = churn_data.drop('customerID', axis=1)
 
 # In[15]:
-
+# Enhance preprocessing with encoding logic
 # Encode categorical variables
 label_encoder = LabelEncoder()
 
