@@ -45,7 +45,7 @@ churn_data.shape
 churn_data.info()
 
 # In[7]:
-
+# Add missing value detection in explore_data()
 # Checking for missing values
 churn_data.isnull().sum()
 
