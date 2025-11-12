@@ -19,7 +19,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 
 # ## Data Collection and Processing
 
-# In[2]:
+# In[2]:# Add load_data() and explore_data() methods
 
 # Loading the CSV data to Pandas DataFrame
 churn_data = pd.read_csv('customer_churn_data.csv')
